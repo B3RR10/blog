@@ -1,23 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>http://example.org/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>Thoughts and notes</title>
+    <link>https://blog.miguelberrio.xyz/</link>
+    <description>Recent content on Thoughts and notes</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 22 Aug 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.miguelberrio.xyz/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title></title>
-      <link>http://example.org/posts/arch-installation/</link>
+      <title>Arch Linux installation guide</title>
+      <link>https://blog.miguelberrio.xyz/blog/arch-linux-installation-guide/</link>
+      <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.miguelberrio.xyz/blog/arch-linux-installation-guide/</guid>
+      <description>This is an installation guide based on the Youtube Series Arch My Way from unicks.eu
+Setup Partitions    - Mountpoint Format Label     p /boot fat32 EFI   p / btrfs ROOT    Subvolumes Btrfs ID 5 default sub /btrfs
+   - Volume Mountpoint     s @ /   s @home /home   s @snapshots /.</description>
+    </item>
+    
+    <item>
+      <title>Home</title>
+      <link>https://blog.miguelberrio.xyz/home/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/arch-installation/</guid>
-      <description>Arch Linux Installation Setup Partitions    - Mountpoint Format Label     p /boot fat32 EFI   p / btrfs ROOT    Subvolumes Btrfs ID 5 default sub /btrfs
-   - Volume Mountpoint     s @ /   s @home /home   s @snapshots /.snapshots   s @pkg /var/cache/pacman/pkg    Snapshots    - Snapshot Description     s TESTING Arch Rolling   s STABLE last stable state   s OLDSTABLE 2nd last stable state    Booting images    - Image Snapshot     vmlinuz-linux initramfs-linux.</description>
+      <guid>https://blog.miguelberrio.xyz/home/</guid>
+      <description>Some day I&amp;rsquo;ll quote something really cool here.
+Welcome to my blog. Here I&amp;rsquo;ll save thoughts and notes not to forget! Finally I wrote my first entry!</description>
+    </item>
+    
+    <item>
+      <title>License</title>
+      <link>https://blog.miguelberrio.xyz/license/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.miguelberrio.xyz/license/</guid>
+      <description>You can use this page to put a license on the contents of your blog, like so:
+ The MIT License (MIT)
+Copyright &amp;copy; 2015 Nishanth Shanmughamnishanth.gerrard@gmail.com
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &amp;ldquo;Software&amp;rdquo;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</description>
     </item>
     
   </channel>
