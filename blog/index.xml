@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on Thoughts and notes</title>
-    <link>https://blog.miguelberrio.xyz/blog/</link>
+    <link>/blog/</link>
     <description>Recent content in Blog on Thoughts and notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Wed, 22 Aug 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://blog.miguelberrio.xyz/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Arch Linux installation guide</title>
-      <link>https://blog.miguelberrio.xyz/blog/arch-linux-installation-guide/</link>
+      <link>/blog/arch-linux-installation-guide/</link>
       <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.miguelberrio.xyz/blog/arch-linux-installation-guide/</guid>
+      <guid>/blog/arch-linux-installation-guide/</guid>
       <description>This is an installation guide based on the Youtube Series Arch My Way from unicks.eu
 Setup Partitions    - Mountpoint Format Label     p /boot fat32 EFI   p / btrfs ROOT    Subvolumes Btrfs ID 5 default sub /btrfs
    - Volume Mountpoint     s @ /   s @home /home   s @snapshots /.</description>
