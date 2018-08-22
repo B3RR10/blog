@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://blog.miguelberrio.xyz"
 theme = "cocoa-eh"
 builddrafts = true
 canonifyurls = true
